@@ -2,17 +2,11 @@
   "name": "workspace",
   "packageManager": "pnpm@8.15.5",
   "type": "module",
-  "scripts": {
-    "prepare": "husky install",
-    "lint:eslint": "eslint . --fix --cache",
-    "lint:all": "pnpm run lint:eslint"
-  },
   "devDependencies": {
     "@commitlint/cli": "^18.2.0",
     "@commitlint/config-conventional": "^18.1.0",
     "@trpl/eslint-config": "workspace:^1.0.0",
     "eslint": "^8.53.0",
-    "husky": "^8.0.3",
     "lint-staged": "^15.0.2"
   },
   "lint-staged": {
