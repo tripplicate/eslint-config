@@ -6,7 +6,7 @@
     "@commitlint/cli": "^18.2.0",
     "@commitlint/config-conventional": "^18.1.0",
     "@trpl/eslint-config": "workspace:^1.0.0",
-    "eslint": "^8.53.0",
+    "eslint": "^8.57.0",
     "lint-staged": "^15.0.2"
   },
   "lint-staged": {
