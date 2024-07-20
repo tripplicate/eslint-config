@@ -26,9 +26,6 @@
   "files": [
     "src"
   ],
-  "scripts": {
-    "lint:eslint": "eslint . --fix --cache"
-  },
   "peerDependencies": {
     "eslint": ">=7.0.0"
   },
