@@ -7,10 +7,10 @@
     "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.2.0",
-    "@commitlint/config-conventional": "^18.1.0",
-    "@trpl/eslint-config": "workspace:^1.0.0",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@trpl/eslint-config": "workspace:^",
     "eslint": "^8.57.0",
-    "lint-staged": "^15.0.2"
+    "lint-staged": "^15.2.7"
   }
 }
