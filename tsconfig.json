@@ -1,8 +1,0 @@
-{
-  "references": [
-    {
-      "path": "./examples/eslint/vue3-typescript/tsconfig.json"
-    }
-  ],
-  "files": []
-}
