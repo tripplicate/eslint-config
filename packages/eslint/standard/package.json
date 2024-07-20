@@ -18,7 +18,6 @@
     "directory": "packages/eslint/standard"
   },
   "homepage": "https://github.com/tripplicate/configs",
-  "packageManager": "pnpm@8.15.5",
   "publishConfig": {
     "access": "public"
   },

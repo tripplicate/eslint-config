@@ -18,7 +18,6 @@
     "directory": "packages/stylelint/scss"
   },
   "homepage": "https://github.com/tripplicate/configs/packages/stylelint/scss",
-  "packageManager": "pnpm@8.15.5",
   "publishConfig": {
     "access": "public"
   },
