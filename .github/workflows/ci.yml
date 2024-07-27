@@ -34,5 +34,4 @@ jobs:
 
       - name: "Run tasks with nx"
         uses: nrwl/nx-set-shas@v4
-      - run: pnpx nx-cloud record -- nx format:check
       - run: pnpm exec nx affected -t eslint
