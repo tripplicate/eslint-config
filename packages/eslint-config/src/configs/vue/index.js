@@ -111,9 +111,6 @@ module.exports = {
 
     'vue/require-emit-validator': 'error',
     'vue/require-name-property': 'error',
-    'vue/require-prop-comment': ['error', {
-      type: 'JSDoc',
-    }],
     'vue/require-typed-object-prop': 'error',
     'vue/require-typed-ref': 'error',
     'vue/require-macro-variable-name': ['error', {
