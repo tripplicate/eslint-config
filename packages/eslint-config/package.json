@@ -12,16 +12,16 @@
     "eslint-config"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/tripplicate/configs",
   "repository": {
     "type": "git",
     "url": "https://github.com/tripplicate/configs",
     "directory": "packages/eslint/standard"
   },
-  "homepage": "https://github.com/tripplicate/configs",
+  "type": "commonjs",
   "publishConfig": {
     "access": "public"
   },
-  "type": "commonjs",
   "main": "src/index.js",
   "files": [
     "src"

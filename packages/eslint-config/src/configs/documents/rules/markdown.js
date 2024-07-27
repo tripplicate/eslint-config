@@ -173,7 +173,6 @@ module.exports = {
         'unicorn/prefer-text-content': 'off',
         'unicorn/prefer-trim-start-end': 'off',
         'unicorn/regex-shorthand': 'off',
-
       },
     }
   ],
