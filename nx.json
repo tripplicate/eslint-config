@@ -1,5 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "nxCloudAccessToken": "YWIzNDllODYtMTY2Ni00YmE3LThjNjMtNmE4NTgzZDhhNDVkfHJlYWQtd3JpdGU=",
   "defaultBase": "main",
   "targetDefaults": {
     "eslint": {
