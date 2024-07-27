@@ -4,17 +4,23 @@
   "targetDefaults": {
     "eslint": {
       "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "cache": true,
       "options": {
-        "lintFilePatterns": ["{projectRoot}/**/*.{js,json,yaml,yml,md}"],
+        "lintFilePatterns": [
+          "{projectRoot}/**/*.{js,json,yaml,yml,md}"
+        ],
         "cache": true,
         "cacheLocation": "{projectRoot}/.cache/.eslintcache"
       }
     }
   },
   "release": {
-    "projects": ["packages/*"],
+    "projects": [
+      "packages/*"
+    ],
     "projectsRelationship": "independent",
     "releaseTagPattern": "release/{projectName}/{version}",
     "changelog": {
@@ -28,5 +34,6 @@
     "git": {
       "commitMessage": "chore(release): publish"
     }
-  }
+  },
+  "nxCloudAccessToken": "YWIzNDllODYtMTY2Ni00YmE3LThjNjMtNmE4NTgzZDhhNDVkfHJlYWQtd3JpdGU="
 }
