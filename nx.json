@@ -12,5 +12,18 @@
         "cacheLocation": "{projectRoot}/.cache/.eslintcache"
       }
     }
+  },
+  "release": {
+    "projectsRelationship": "independent",
+    "releaseTagPattern": "release/{projectName}/{version}",
+    "changelog": {
+      "projectChangelogs": {
+        "createRelease": "github"
+      }
+    },
+    "version": {
+      "currentVersionResolver": "registry",
+      "skipLockFileUpdate": true
+    }
   }
 }
