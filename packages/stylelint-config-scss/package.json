@@ -1,6 +1,6 @@
 {
   "name": "@trpl/stylelint-config-scss",
-  "version": "1.3.0",
+  "version": "1.5.0",
   "author": {
     "name": "Danil Sergeev",
     "email": "tripplicate.me@gmail.com",
@@ -30,7 +30,7 @@
     "stylelint": "^16.0.0"
   },
   "dependencies": {
-    "@trpl/stylelint-config-standard": "workspace:^",
+    "@trpl/stylelint-config-standard": "1.5.0",
     "postcss-scss": "^4.0.9",
     "stylelint-scss": "^6.4.1"
   },
