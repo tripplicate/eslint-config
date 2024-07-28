@@ -12,16 +12,16 @@
     "scss"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/tripplicate/configs/packages/stylelint/scss",
   "repository": {
     "type": "git",
     "url": "https://github.com/tripplicate/configs",
     "directory": "packages/stylelint/scss"
   },
-  "homepage": "https://github.com/tripplicate/configs/packages/stylelint/scss",
+  "type": "commonjs",
   "publishConfig": {
     "access": "public"
   },
-  "type": "commonjs",
   "main": "src/index.js",
   "files": [
     "src"
