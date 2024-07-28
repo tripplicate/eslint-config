@@ -36,6 +36,7 @@ module.exports = {
         '@stylistic/padding-line-between-statements': 'off',
         quotes: 'off',
         '@stylistic/quotes': 'off',
+        '@stylistic/no-multiple-empty-lines': 'off',
         'func-style': 'off',
 
         '@typescript-eslint/no-redeclare': 'off',
