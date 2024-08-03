@@ -1,7 +1,7 @@
 {
   "name": "workspace",
-  "packageManager": "pnpm@9.5.0",
   "type": "module",
+  "packageManager": "pnpm@9.6.0",
   "scripts": {
     "prepare": "git config core.hooksPath .githooks",
     "preinstall": "npx only-allow pnpm"
@@ -16,7 +16,7 @@
     "@swc/helpers": "~0.5.12",
     "@trpl/eslint-config": "workspace:^",
     "eslint": "^8.57.0",
-    "lint-staged": "^15.2.7",
+    "lint-staged": "^15.2.8",
     "nx": "19.5.1"
   }
 }
